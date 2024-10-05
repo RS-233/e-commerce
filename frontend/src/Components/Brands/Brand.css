@@ -1,0 +1,54 @@
+
+.fashion_main_inner::-webkit-scrollbar{
+    display: none;
+}
+.fashionbrand{
+    font-family: "Poppins";
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}
+.fashionbrand_main{
+    height: 350px;
+    width: 1280px;
+}
+.fashionbrand_main-top{
+    background-color: white;
+    width: 100%;
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+    height: 60px;
+    display: flex;
+    border-bottom:1px solid rgba(128, 128, 128, 0.484) ;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+.fashionbrand_main-top p{
+    padding-left: 15px;
+}
+.fashionbrand_main-top img{
+    margin-right: 20px;
+    transform: rotate(90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+.fashion_main_inner{
+    background-color: rgba(239, 239, 239, 0.31);
+    display: flex;
+    padding-left: 25px;
+    align-items: center;
+    height: 290px;
+    gap: 25px;
+    overflow-x: scroll;
+}
+@media(max-width:1300px){
+    .fashionbrand_main{
+        width: 100%;
+    }
+}
