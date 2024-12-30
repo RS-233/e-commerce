@@ -16,4 +16,4 @@ export const assets ={
     parcel_icon
 }
 
-export const url = 'https://newbackend-xdwz.onrender.com'
+export const url = `https://yumrun-backend-nlds.onrender.com`;
